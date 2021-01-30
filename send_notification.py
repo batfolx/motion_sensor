@@ -64,5 +64,5 @@ def send_text(filename):
             msg.attach(MIMEImage(file.read(), name=f'{i}.jpg'))
 
     
-    server.sendmail('Dickass@lol.email.LOL!!!', numbers, msg.as_string())
+    server.sendmail('email_here@domain.com', numbers, msg.as_string())
     print("Successfully sent text message!")
